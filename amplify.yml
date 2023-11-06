@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm use --lts
+        - nvm use --lts
         - npm ci
     build:
       commands:
